@@ -1,0 +1,22 @@
+# Agent & messaging
+langgraph>=0.2.35
+langchain-core>=0.3.6
+pydantic>=2.7
+
+# UI
+streamlit>=1.38.0
+
+# Vector store
+chromadb>=0.5.7
+
+# Embeddings & reranking
+sentence-transformers>=3.0.1
+torch>=2.2.0
+
+# Ingestion / parsing
+pypdf>=4.2.0
+nltk>=3.9
+
+# Utils
+python-dotenv>=1.0.1
+numpy>=1.26.0
