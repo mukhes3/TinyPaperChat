@@ -85,10 +85,10 @@ If you’ve already ingested your PDFs into `CHROMA_DB_DIR`, skip this step. Oth
 - Chunks + embeds with `sentence-transformers`
 - Upserts into Chroma at `CHROMA_DB_DIR`
 
-> If you see an NLTK error, run:
-> ```python
-> import nltk; nltk.download('punkt'); nltk.download('punkt_tab')
-> ```
+Run it as: 
+```bash
+python ingest_to_chroma.py --input_dir /path/to/papers --persist_dir /path/to/chroma/persistence/dir
+```
 
 ### 4) Interact with the agent
 Ask a question in the Streamlit chat. The agent will:
